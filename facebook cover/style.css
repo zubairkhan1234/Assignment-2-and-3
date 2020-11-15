@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure;
+}
+
+.cover-photo {
+    width: 90%;
+    height: auto;
+    margin: 0% auto;
+}
+.cover-photo img{
+    width: 100%;
+    height: auto;
+}
+.button{
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    
+}
+.button li {
+    list-style: none;
+    display: inline;
+    margin: 2px;
+    border: 1px solid black;
+}
+.button .btn1 {
+    display: inline;
+    width: 30%;
+    line-height: 100px;
+    margin-right: 10px;
+} 
+.button .btn2 {
+    float: right;
+    display: inline;
+    width: 30%;
+    text-align: right;
+    line-height: 100px;
+    margin-left: 10px;
+
+}
+
+.button .btn1 li a, .button .btn2 li a   {
+    text-decoration: none;
+    color: black;
+} 
+
